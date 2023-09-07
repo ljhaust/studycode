@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T01:30:06.462Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="1btoChcwc3jJlG5BKNh1" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-07T01:30:32.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="qrEbJ6CUDLFhXM9nUVQp" version="21.6.8" type="github">
   <diagram name="第 1 页" id="-yWtAhsGNF6YY7Y9oRBQ">
     <mxGraphModel dx="1666" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,9 +18,6 @@
             </Array>
             <mxPoint x="55" y="190" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="P_QBw0lyaeiG2fPPgNWz-22" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1" source="P_QBw0lyaeiG2fPPgNWz-4" target="P_QBw0lyaeiG2fPPgNWz-2">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P_QBw0lyaeiG2fPPgNWz-4" value="能力平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="414" y="60" width="100" height="590" as="geometry" />
