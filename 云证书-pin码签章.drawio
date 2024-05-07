@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T03:11:13.833Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="do5kMIEvvSdrlivNbmuD" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-07T03:16:39.813Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="vLs24uekY1a9fqj1eBwy" version="24.2.0" type="github">
   <diagram name="第 1 页" id="VkMA4ATRbYiKhNsEHud5">
     <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="340" y="60" width="100" height="590" as="geometry" />
         </mxCell>
         <mxCell id="u5oOqTryibCGW7Ie-U5E-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="u5oOqTryibCGW7Ie-U5E-1">
-          <mxGeometry x="45" y="70" width="10" height="390" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="490" as="geometry" />
         </mxCell>
         <mxCell id="u5oOqTryibCGW7Ie-U5E-3" value="初始化云证书-pin码签章模式" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="u5oOqTryibCGW7Ie-U5E-1">
           <mxGeometry relative="1" as="geometry">
@@ -29,59 +29,79 @@
             <mxPoint x="55" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="u5oOqTryibCGW7Ie-U5E-25" value="判断pin校验是否成功，若成功则进行下一步" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="u5oOqTryibCGW7Ie-U5E-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="350" />
+            </Array>
+            <mxPoint x="55" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u5oOqTryibCGW7Ie-U5E-33" value="进行PDF签章数据合并" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1;entryY=0.918;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="u5oOqTryibCGW7Ie-U5E-2" parent="u5oOqTryibCGW7Ie-U5E-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="490" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="490" />
+              <mxPoint x="85" y="520" />
+            </Array>
+            <mxPoint x="60" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="u5oOqTryibCGW7Ie-U5E-7" value="云签服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="600" y="60" width="100" height="590" as="geometry" />
         </mxCell>
-        <mxCell id="u5oOqTryibCGW7Ie-U5E-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="u5oOqTryibCGW7Ie-U5E-7">
-          <mxGeometry x="45" y="370" width="10" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="u5oOqTryibCGW7Ie-U5E-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="u5oOqTryibCGW7Ie-U5E-7">
-          <mxGeometry x="45" y="190" width="10" height="60" as="geometry" />
+          <mxGeometry x="45" y="220" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u5oOqTryibCGW7Ie-U5E-29" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="u5oOqTryibCGW7Ie-U5E-7">
+          <mxGeometry x="45" y="380" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="u5oOqTryibCGW7Ie-U5E-10" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
           <mxGeometry x="130" y="60" width="20" height="590" as="geometry" />
         </mxCell>
         <mxCell id="u5oOqTryibCGW7Ie-U5E-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="u5oOqTryibCGW7Ie-U5E-10">
-          <mxGeometry x="5" y="70" width="10" height="390" as="geometry" />
+          <mxGeometry x="5" y="70" width="10" height="490" as="geometry" />
         </mxCell>
-        <mxCell id="u5oOqTryibCGW7Ie-U5E-12" value="进行云签章" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="u5oOqTryibCGW7Ie-U5E-1">
+        <mxCell id="u5oOqTryibCGW7Ie-U5E-12" value="进行PDF文件云签章" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="u5oOqTryibCGW7Ie-U5E-1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="140" y="130" as="sourcePoint" />
             <mxPoint x="220" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u5oOqTryibCGW7Ie-U5E-13" value="申请成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="u5oOqTryibCGW7Ie-U5E-11">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="520" as="sourcePoint" />
-            <mxPoint x="150" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="u5oOqTryibCGW7Ie-U5E-14" value="用户" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="115" y="90" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u5oOqTryibCGW7Ie-U5E-15" value="申请成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="u5oOqTryibCGW7Ie-U5E-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="650" y="520" as="sourcePoint" />
-            <mxPoint x="350" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u5oOqTryibCGW7Ie-U5E-18" value="返回手写签章图片" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="u5oOqTryibCGW7Ie-U5E-2">
+        <mxCell id="u5oOqTryibCGW7Ie-U5E-18" value="返回pin码校验结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="u5oOqTryibCGW7Ie-U5E-2" source="u5oOqTryibCGW7Ie-U5E-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="454" y="370" as="sourcePoint" />
             <mxPoint x="300" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="340" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="u5oOqTryibCGW7Ie-U5E-19" value="唤起手写板进行手写签章采集" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="u5oOqTryibCGW7Ie-U5E-2">
+        <mxCell id="u5oOqTryibCGW7Ie-U5E-23" value="根据用户输入的pin码调用云签服务端进行pin码校验" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="u5oOqTryibCGW7Ie-U5E-7">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="380" y="300" as="sourcePoint" />
-            <mxPoint x="460" y="300" as="targetPoint" />
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="470" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u5oOqTryibCGW7Ie-U5E-20" value="调用云签服务证书印章申请接口" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="u5oOqTryibCGW7Ie-U5E-2">
-          <mxGeometry x="-0.0704" width="80" relative="1" as="geometry">
-            <mxPoint x="570" y="430" as="sourcePoint" />
-            <mxPoint x="650" y="430" as="targetPoint" />
+        <mxCell id="u5oOqTryibCGW7Ie-U5E-30" value="调用云签服务端获取云证，电子印章" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="u5oOqTryibCGW7Ie-U5E-29" parent="1" source="u5oOqTryibCGW7Ie-U5E-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="445" as="sourcePoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u5oOqTryibCGW7Ie-U5E-31" value="返回云证，电子印章" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="u5oOqTryibCGW7Ie-U5E-29" parent="1" target="u5oOqTryibCGW7Ie-U5E-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u5oOqTryibCGW7Ie-U5E-34" value="签章成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="u5oOqTryibCGW7Ie-U5E-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="620" as="sourcePoint" />
+            <mxPoint x="300" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
