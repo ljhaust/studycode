@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T03:09:54.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="BIrlnQnug1BSYVRdZJ-s" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-07T03:11:13.833Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="do5kMIEvvSdrlivNbmuD" version="24.2.0" type="github">
   <diagram name="第 1 页" id="VkMA4ATRbYiKhNsEHud5">
     <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,6 +17,16 @@
               <mxPoint x="85" y="120" />
             </Array>
             <mxPoint x="55" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u5oOqTryibCGW7Ie-U5E-22" value="H5签章组件弹出云证书pin码输入框" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="u5oOqTryibCGW7Ie-U5E-1" source="u5oOqTryibCGW7Ie-U5E-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="160" />
+              <mxPoint x="80" y="190" />
+            </Array>
+            <mxPoint x="55" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="u5oOqTryibCGW7Ie-U5E-7" value="云签服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
