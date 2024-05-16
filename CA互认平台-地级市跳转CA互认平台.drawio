@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T00:46:28.838Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="HPPAm9OsCu6ASyhsVtyT" version="24.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-16T00:48:08.578Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="NliyPxHavWFXRg1JV6vP" version="24.4.2" type="github">
   <diagram name="第 1 页" id="gEdZS8duLjTJs79BsFfT">
     <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,16 +52,10 @@
             <mxPoint x="220" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="skfG_PXnNRPhzLKCUXTA-10" value="申请成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="skfG_PXnNRPhzLKCUXTA-8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="520" as="sourcePoint" />
-            <mxPoint x="150" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="skfG_PXnNRPhzLKCUXTA-11" value="用户" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="115" y="90" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="skfG_PXnNRPhzLKCUXTA-12" value="申请成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="skfG_PXnNRPhzLKCUXTA-1" edge="1">
+        <mxCell id="skfG_PXnNRPhzLKCUXTA-12" value="申请成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="skfG_PXnNRPhzLKCUXTA-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="650" y="520" as="sourcePoint" />
             <mxPoint x="350" y="520" as="targetPoint" />
