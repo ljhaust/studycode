@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T00:39:39.585Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="7du1l8y3oioz38eQhrRa" version="24.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-16T00:46:28.838Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="HPPAm9OsCu6ASyhsVtyT" version="24.4.2" type="github">
   <diagram name="第 1 页" id="gEdZS8duLjTJs79BsFfT">
     <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,7 +17,28 @@
           <mxGeometry x="45" y="370" width="10" height="90" as="geometry" />
         </mxCell>
         <mxCell id="skfG_PXnNRPhzLKCUXTA-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="skfG_PXnNRPhzLKCUXTA-4" vertex="1">
-          <mxGeometry x="45" y="80" width="10" height="60" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9Ke5YE2PtQWS2UYXLLF-2" value="对业务系统基本信息进行SM4解密，判断用户是否存在，若不存在则进行入库" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1;entryY=0.353;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="skfG_PXnNRPhzLKCUXTA-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="170" />
+              <mxPoint x="85" y="200" />
+            </Array>
+            <mxPoint x="55" y="200.01" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9Ke5YE2PtQWS2UYXLLF-5" value="对业务系统传递过来token进行校验，若成功则继续往下流转" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="skfG_PXnNRPhzLKCUXTA-6" parent="skfG_PXnNRPhzLKCUXTA-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="100" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="100" />
+              <mxPoint x="85" y="130" />
+            </Array>
+            <mxPoint x="60" y="130" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="skfG_PXnNRPhzLKCUXTA-7" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
           <mxGeometry x="130" y="60" width="20" height="590" as="geometry" />
@@ -46,27 +67,28 @@
             <mxPoint x="350" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="skfG_PXnNRPhzLKCUXTA-13" value="携带用户基本信息，跳转CA互认平台单点登录页" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="skfG_PXnNRPhzLKCUXTA-4" edge="1">
+        <mxCell id="skfG_PXnNRPhzLKCUXTA-13" value="携带用户基本信息进行SM4加密，跳转CA互认平台单点登录页" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="skfG_PXnNRPhzLKCUXTA-4" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="300" y="140" as="sourcePoint" />
             <mxPoint x="380" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="skfG_PXnNRPhzLKCUXTA-14" value="返回印章列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="skfG_PXnNRPhzLKCUXTA-2" edge="1">
-          <mxGeometry x="-0.0286" y="-10" relative="1" as="geometry">
-            <mxPoint x="650" y="200" as="sourcePoint" />
-            <mxPoint x="300" y="200" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="480" y="200" />
-            </Array>
-            <mxPoint as="offset" />
+        <mxCell id="Y9Ke5YE2PtQWS2UYXLLF-3" value="跳转成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="skfG_PXnNRPhzLKCUXTA-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="310" as="sourcePoint" />
+            <mxPoint x="570" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="skfG_PXnNRPhzLKCUXTA-15" value="调用云签服务证书印章申请接口" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="skfG_PXnNRPhzLKCUXTA-2" edge="1">
-          <mxGeometry x="-0.0704" width="80" relative="1" as="geometry">
-            <mxPoint x="570" y="430" as="sourcePoint" />
-            <mxPoint x="650" y="430" as="targetPoint" />
-            <mxPoint as="offset" />
+        <mxCell id="Y9Ke5YE2PtQWS2UYXLLF-6" value="用户填写基本信息进行介质CA申请" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="skfG_PXnNRPhzLKCUXTA-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="150" y="430" as="sourcePoint" />
+            <mxPoint x="230" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9Ke5YE2PtQWS2UYXLLF-7" value="用户进入CA互认平台" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.5;exitY=0.462;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="skfG_PXnNRPhzLKCUXTA-2" target="skfG_PXnNRPhzLKCUXTA-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="310" as="sourcePoint" />
+            <mxPoint x="200" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
